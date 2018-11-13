@@ -22,14 +22,6 @@ class Block {
     };
 }
 
-const INITIAL_TRANSATION = {
-    type: 'announcment',
-    publisher: 'Bob',
-    message: 'I look up for Blochain job!',
-};
-
-const GENESIS_BLOCK = new Block(INITIAL_TRANSATION, 0, 'Here can insert EasterEgg too.');
-
 module.exports = { 
     Block,
     GENESIS_BLOCK,
