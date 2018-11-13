@@ -9,9 +9,9 @@ class Blockchain {
         return this.chain[this.chain.length - 1];
     };
 
-    mineBlock(data) {
+    mineBlock(transaction) {
         const latestBlock = this.getLatestBlockInChain();
-        const currentBlock =  new Block(data, latestBlock.blockIndex, latestBlock.currentHash)
+        const currentBlock =  new Block(transaction, latestBlock.blockIndex, latestBlock.currentHash);
 
         this.chain.push(currentBlock);
     };
