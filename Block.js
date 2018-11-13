@@ -24,5 +24,4 @@ class Block {
 
 module.exports = { 
     Block,
-    GENESIS_BLOCK,
 };
