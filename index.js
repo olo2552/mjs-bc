@@ -7,7 +7,7 @@ const INITIAL_TRANSATION = {
     message: 'I look up for Blochain job!',
 };
 
-const GENESIS_BLOCK = new Block(INITIAL_TRANSATION, 0, 'Here can insert EasterEgg too.');
+const GENESIS_BLOCK = new Block(INITIAL_TRANSATION, 0, 'Here you can insert EasterEgg too.');
 
 const sampleBC = new Blockchain(GENESIS_BLOCK);
 
